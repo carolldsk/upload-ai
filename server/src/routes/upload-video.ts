@@ -3,6 +3,12 @@ import { fastifyMultipart } from "@fastify/multipart";
 import { prisma } from "../lib/prisma";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
+import { pipeline } from "node:stream";
+import fs from "node:fs";
+import { promisify } from "node:util";
+
+//stream do node, para ir escrevendo o arquivo aos poucos
+const pump = promisify(pipeline);
 
 export async function uploadVideoRoute(app: FastifyInstance) {
    app.register(fastifyMultipart, {
@@ -42,9 +48,6 @@ export async function uploadVideoRoute(app: FastifyInstance) {
       return {
          video
       }
-
-
-
 
    })
 }
