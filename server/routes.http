@@ -38,3 +38,25 @@ Content-Type: application/json
   "temperature": 0.5,
   "prompt": "Gere um resumo da transcrição do vídeo informada a seguir: '''{transcription}'''"
 }
+
+###
+
+
+# @name teste
+POST https://saoestadodespaulo.us-7.evergage.com/api2/authevent/estadao_prod
+Content-Type: application/json
+Authorization: Basic QUFDRTU2MTUtNzUzNy00RDY3LUFEM0ItMEQ3ODcwNkIxQjJBOjN3bmY0STR6N2FtdFhBOU5Ja3pMRWk2YXl3Qlo2X19qWFpVekw0ZkRIT2c
+User-Agent: rest-client
+Cookie: AWSALB=XyGrHMemWA03lOKrOucbfkt0s70G0uL766JDPYn5Fn12qWmZ4/RP+lcmkaM3VDRRH1/zp/cvwu7ShyjoACu6rVA+ryvZnR0fP6tJF8ziHIIYZf10TcqDGIzMZ1u1; AWSALBCORS=XyGrHMemWA03lOKrOucbfkt0s70G0uL766JDPYn5Fn12qWmZ4/RP+lcmkaM3VDRRH1/zp/cvwu7ShyjoACu6rVA+ryvZnR0fP6tJF8ziHIIYZf10TcqDGIzMZ1u1; AWSALBTG=NhTGDbl6j6Zll0RytzcAtq25rNYeG5CLzlg8L6YhfYJux20o/Gqv4Ldr63AMxNUtD9aRKftfSNBwN9BoMSSgHr2X5Atojs5lEsKrMUAFTMMZzP/U7tSDvHJqvjFAymxeoQPMYGUWOmhajXxpelY09j94KbJDbmVbWfO6DY4Ig/JObceIfps=; AWSALBTGCORS=NhTGDbl6j6Zll0RytzcAtq25rNYeG5CLzlg8L6YhfYJux20o/Gqv4Ldr63AMxNUtD9aRKftfSNBwN9BoMSSgHr2X5Atojs5lEsKrMUAFTMMZzP/U7tSDvHJqvjFAymxeoQPMYGUWOmhajXxpelY09j94KbJDbmVbWfO6DY4Ig/JObceIfps=; AWSALB=luF1iLAhCBZKwMzji2lxoGsRn0BOlKU+tiJ2egMa4IUOG3cyGabeUYzypE2TlanjPbilxJ97UcxR3CF29BptXeDenz8qOUZBv3rtxB00H6XQwXOWgjJI9PatZT/m; AWSALBCORS=luF1iLAhCBZKwMzji2lxoGsRn0BOlKU+tiJ2egMa4IUOG3cyGabeUYzypE2TlanjPbilxJ97UcxR3CF29BptXeDenz8qOUZBv3rtxB00H6XQwXOWgjJI9PatZT/m; AWSALBTG=2cnQRVZLBnfrra7g+I4DrBigrLFRJht6VSIKF1oZVRF3guLtOsQ6BTjz9u/vC2lUOX2nzEzQZKft9jYbR/mMELgr0BUHWovFEwgtBHBI5jytPbLR5WqxN9uoqX/3/Aj5yAbz0g7edjwsz73yKEbCw29BVtqAGKeh+/8V3JrwYXUwadckni8=; AWSALBTGCORS=2cnQRVZLBnfrra7g+I4DrBigrLFRJht6VSIKF1oZVRF3guLtOsQ6BTjz9u/vC2lUOX2nzEzQZKft9jYbR/mMELgr0BUHWovFEwgtBHBI5jytPbLR5WqxN9uoqX/3/Aj5yAbz0g7edjwsz73yKEbCw29BVtqAGKeh+/8V3JrwYXUwadckni8=
+
+{
+  "action": "Teste",
+  "user": {
+    "attributes": {
+      "emailAddress": "davi.silva.slice@estadao.com"
+    }
+  },
+  "source":{
+    "channel": "Server"
+  }
+}
