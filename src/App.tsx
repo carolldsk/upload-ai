@@ -115,7 +115,7 @@ export function App() {
                 step={0.1}
               />
               <span className="block text-sm text-muted-foreground italic leading-relaxed">
-                Valores mais altor tendem a deixar o resultado mais criativo e com possíveis erros.
+                Valores mais altos tendem a deixar o resultado mais criativo e com possíveis erros.
               </span>
             </div>
 
